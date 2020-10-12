@@ -2,8 +2,9 @@
   "name": "projetoAPIcomExpress",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/servidor.js",
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Elvis-Lopes/Projeto_API_e_Express#readme",
   "dependencies": {
-    "express": "4.16.2"
+    "express": "4.16.2",
+    "nodemon": "1.14.11"
   }
 }
